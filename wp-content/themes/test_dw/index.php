@@ -9,7 +9,10 @@
 </head>
 <body>
     <h1>
-        hello world
+        <?= get_bloginfo('name'); ?>
     </h1>
+    <p>
+        <?= get_bloginfo('description'); ?>
+    </p>
 </body>
 </html>
